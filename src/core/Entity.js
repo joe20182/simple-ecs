@@ -1,8 +1,8 @@
-class Entity {
-  static nextId = 0;
+import { v4 as uuidv4 } from "uuid";
 
+class Entity {
   constructor() {
-    this.id = Entity.nextId++;
+    this.id = uuidv4();
     this.components = new Map();
   }
 
