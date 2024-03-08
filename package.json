@@ -1,6 +1,10 @@
 {
   "name": "poor-ecs",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joe20182/simple-ecs"
+  },
   "description": "A simple ECS system in javascript",
   "main": "index.js",
   "scripts": {
